@@ -12,4 +12,12 @@ export class MainComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  downloadHV(){
+
+    // https://docdro.id/KUouu0X this is the link where the HV is.
+    window.location.href = "https://docdro.id/KUouu0X"
+    
+  }
+
 }
