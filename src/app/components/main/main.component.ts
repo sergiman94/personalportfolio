@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioServerService } from 'src/app/services/portfolio-server.service';
 
 @Component({
   selector: 'app-main',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  constructor(private portfolioServer: PortfolioServerService) { }
 
   ngOnInit() {
   }
@@ -17,7 +18,17 @@ export class MainComponent implements OnInit {
 
     // https://docdro.id/KUouu0X this is the link where the HV is.
     window.location.href = "https://docdro.id/KUouu0X"
+
+    
     
   }
+
+  submit(){
+    this.portfolioServer.getData().subscribe((data)=>{
+      console.log(data);
+    })
+  }
+
+
 
 }
