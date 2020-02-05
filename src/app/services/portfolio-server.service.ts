@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Email } from '../models/Email';
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +13,10 @@ export class PortfolioServerService {
 
   getData(){
     return this.http.get(`${this.API}/test`)
+  }
+
+  setData(data: Email){
+    return this.http.post(`${this.API}/test`,data );
   }
 
 }
