@@ -12,4 +12,15 @@ export class EspanolComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  downloadHV(){
+
+    // https://docdro.id/pI2Nm2A this is the link where the HV is.
+    window.location.href = "https://docdro.id/pI2Nm2A"
+
+    
+    
+  }
+
+
 }

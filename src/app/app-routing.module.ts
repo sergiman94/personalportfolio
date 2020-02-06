@@ -8,11 +8,6 @@ const routes: Routes = [
   { path: '', redirectTo: '/en', pathMatch: 'full' },
   {path: 'en', component:EnglishComponent},
   {path: 'es', component:EspanolComponent}
-  
-
-  
-  
-  
 ];
 
 @NgModule({

@@ -1,1 +1,459 @@
-<p>espanol works!</p>
+<!-- Begin Header -->
+<div class="header-wrapper" id="home">
+  <!-- Begin Hero -->
+  <section class="hero is-large">
+
+    <!-- begin languages -->
+    <div class="languages">
+      <button class="button is-link is-small is-rounded" routerLink='/'>English</button>
+      <button class="button is-info is-danger is-small is-rounded spanish" routerLink='/es'>Español</button>
+    </div>
+    <!-- end languages -->
+
+    <!-- Begin Hero Content-->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="subtitle">Hola, Soy</h1>
+        <h2 class="title">Sergio Manrique</h2>
+        <h1 class="subtitle profession">Ingeniero Multimedia / Desarrollador Web</h1>
+      </div>
+    </div>
+
+    <!-- End Hero Content-->
+    <!-- Begin Hero Menu -->
+    <div class="hero-foot ">
+      <div class="hero-foot--wrapper">
+        <div class="columns">
+          <div class="column is-12 hero-menu-desktop has-text-centered">
+            <ul>
+              <li class="is-active">
+                <a href="/es/#home">Home</a>
+              </li>
+              <li>
+                <a href="/es/#about-me">Acerca de Mi </a>
+              </li>
+              <li>
+                <a href="/es/#services">Servicios</a>
+              </li>
+              <li>
+                <a href="/es/#skills">Mis Habilidades</a>
+              </li>
+              <li>
+                <a href="/es/#my-work">Mis Trabajos</a>
+              </li>
+              <li>
+                <a href="/es/#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Hero Menu -->
+  </section>
+  <!-- End Hero -->
+</div>
+<!-- End Header -->
+
+
+<!---------------------------------------------------------------------------------------->
+
+<!-- Begin Main Content -->
+<div class="main-content">
+
+  <!-- Begin About Me Section -->
+  <div class="section-light about-me" id="about-me">
+    <div class="container">
+
+      <div class="column is-12 about-me">
+        <h1 class="title has-text-centered section-title">Acerca de Mi</h1>
+      </div>
+
+      <div class="columns is-multiline">
+        <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
+          <p class="is-larger">
+            &emsp;&emsp;<strong>
+              Interesado en empresas y / o proyectos que realizan desarrollo web bajo los paradigmas
+              'Front end' y 'Backend'. Tengo conocimiento en programas y frameworks de diseño web,
+              gestores de contenido y motores de desarrollo, animación / modelado 3D, producción y grabación de
+              audio visual. Estoy con la voluntad de aprender y adquirir experiencia en los
+              campos que me permiten crecer profesionalmente y mejorar la base de mi profesión, estoy
+              cerca de completar mis estudios universitarios en la Universidad de San Buenaventura.
+            </strong>
+          </p>
+          <br />
+          <p>
+            Desarrollo web en los campos deFrontend y Backend, específicamenteutilizando el
+            framework Angular para elfrontend, el framework Express (node.js)para el backend
+            y el framework Ionicpara dispositivos mobiles como tambiénXcode. Gestión de bases
+            de datos conMySQL Y SQLDeveloper, PostgreSQL.amplia experiencia en el desarrollo
+            devideojuegos con el motor de juego Unityy manejo de los lenguajes deprogramación
+            : Javascript, PHP, Java,Python, SQL, Typescript, Swift.
+
+
+          </p>
+          <br />
+          <p>
+            Manejo avanzado en los programas degestores de contenido como wordpress,programas
+            de diseño como Illustrator yphotoshop, 3Dmax enfocado en laanimación y modelado 3D
+            de escenas ypersonajes. Postproducción de video enafter effects , grabación y producción
+            de audioen Protools HD , gestión de redes sociales.
+          </p>
+          <br />
+          <div class="is-divider"></div>
+          <div class="columns about-links">
+
+            <div class="column">
+              <p class="heading">
+                <strong>Llamame </strong>
+              </p>
+              <p class="subheading">
+                +57 3136781315
+              </p>
+            </div>
+
+            <div class="column">
+              <p class="heading">
+                <strong>Escribeme</strong>
+              </p>
+              <p class="subheading">
+                sergiman94@gmail.com
+              </p>
+            </div>
+
+            <div class="column">
+              <p class="heading">
+                <strong>Sigueme en Twitter</strong>
+              </p>
+              <p class="subheading">
+                <a href="https://twitter.com/sergiman94">@sergiman94</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="column is-6 right-image " data-aos="fade-left">
+          <img class="is-rounded" src="https://picsum.photos/id/366/600/375" alt="" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End About Me Content -->
+
+  <div class="section-dark resume">
+    <div class="container">
+      <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">
+            Mira mi Hoja de Vida
+          </h1>
+        </div>
+        <div class="column is-10 has-text-centered is-offset-1">
+          <h2 class="subtitle">
+            Dando click al botón de abajo podras ver mi hoja de vida
+          </h2>
+          <form action="example.docs">
+            <button class="button" type="button" (click)="downloadHV()">
+              Ver HV&emsp;<i class="fas fa-file-download "></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Begin Services Content -->
+  <div class="section-color services" id="services">
+    <div class="container">
+
+      <div class="columns is-multiline">
+        <div class="column is-12 about-me" data-aos="fade-in" data-aos-easing="linear">
+          <h1 class="title has-text-centered section-title">Servicios</h1>
+
+          <h2 class="subtitle">
+            Estos son los servicios que te ofrezco en base a mis estudios académicos y mi experiencia laboral.
+            Estos servicios son garantizados y en cada uno de ellos he realizado asesorias, desarrollo y producción.
+            tanto en empresas como en proyectos independientes, he ejecutado al maximo mis habilidades para dar calidad y
+            satisfacción a cada uno de los usuarios.
+          </h2>
+          <br />
+        </div>
+        <div class="columns is-12">
+
+          <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+            <i class="fas fa-laptop-code fa-3x"></i>
+            <i class="fas fa-server fa-3x"></i>
+            <i class="fas fa-database fa-3x"></i>
+            <i class="fab fa-node fa-3x"></i>
+            <hr />
+            <h2>
+                Un desarrollador web de back-end es responsable de la aplicación web del lado del servidor
+                con la lógica e integración del trabajo que realizan los desarrolladores web front-end.
+                los desarrolladores back-end suelen escribir servicios web y API's que proporcionan recursos 
+                de informacion que son utilizados por los desarrolladores front-end como tambien por otros 
+                desarrolladores enfocados en demas dispositivos.                        
+            </h2>
+            <br />
+            <h2>
+                De hecho, las herramientas que uso para el desarrollo de back-end son Express
+                framework y Node.js. para gestion de bases de datos uso PostgreSQL, MySQL y SQLDeveloper. Si
+                Se necesitan otros marcos o entornos de desarrollo estoy en disposición de utilizarlos y aprender de ellos. 
+
+            </h2>
+          </div>
+          <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+            <i class="fas fa-paint-brush fa-3x"></i>
+            <i class="fas fa-layer-group fa-3x"></i>
+            <i class="fas fa-palette fa-3x"></i>
+            <i class="fab fa-angular fa-3x"></i>
+            <hr />
+            <h2>
+                Desarrollo web front-end, también conocido como desarrollo del lado del cliente
+                es la práctica de producir HTML, CSS y JavaScript para un sitio web
+                o aplicación web para que un usuario pueda verlos e interactuar con ellos directamente.
+
+            </h2>
+            <br />
+            <h2>
+                El objetivo de diseñar una plataforma web es asegurar que cuando los usuarios lo usen,
+                vean la información en un formato que es fácil de leer y relevante. Esto es un trabajo de analisis y diseño profundo por el hecho de que los usuarios ahora usan
+                Una gran variedad de dispositivos con diferentes tamaños de pantalla y resoluciones, obligando al diseñador a tener en cuenta estos aspectos cuando se encuentra 
+                diseñando y desarrollando el sitio. Deben asegurarse de que todos los componentes se encuentren distribuidos correctamente
+                en diferentes navegadores (cross-browser), diferentes sistemas operativos (multiplataforma) y diferentes dispositivos
+                (dispositivo cruzado), que requiere una planificación cuidadosa del lado del desarrollador.
+            </h2>
+
+          </div>
+          <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+            <i class="fab fa-facebook-square fa-3x"></i>
+            <i class="fab fa-instagram fa-3x"></i>
+            <i class="fab fa-twitter fa-3x"></i>
+            <i class="fab fa-wordpress fa-3x"></i>
+            <hr />
+            <h2>
+                Los administradores de redes sociales supervisan las actividades con respecto a una empresa u organización.
+                Las tareas típicas enumeradas que se muestran en un curriculum regular para un trabajo incluyen la programación de actualizaciones,
+                compartir contenido relevante, interactuar con fanáticos y seguidores, responder a las consultas de los clientes  
+                y cubriendo eventos de la empresa en las redes sociales.
+
+            </h2>
+          </div>
+        </div>
+        <hr />
+        <div class="columns is-12">
+          <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+            <i class="fas fa-camera-retro fa-3x"></i>
+            <i class="fas fa-video fa-3x"></i>
+            <i class="fas fa-music fa-3x"></i>
+            <i class="fab fa-adobe fa-3x"></i>
+            <hr />
+            <h2>
+                Especialista en producción audiovisual, realizo una variedad de tareas y trabajos con audio y
+                equipos de video e iluminación. Con el objetivo final de producir video profesional y
+                presentaciones. Estas tareas incluyen la organización, conexión, ajuste y operación de
+                equipos de audio e iluminación con su respectiva interconectividad.
+                para las computadoras es importante hacer funcionar correctamente las entradas, salidas  y cables. crear armoniosamente un 
+                programa audiovisual en funcionamiento.
+            </h2>
+            <br />
+            <h2>
+                Además, la creación y el rendimiento de la postproducción se realiza a partir de la grabacion y producción audiovisual.
+                fotografía, creación de modelos 3D y animaciones 2D, diseño de escenografías y personajes.
+            </h2>
+          </div>
+          <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+            <i class="fas fa-gamepad fa-3x"></i>
+            <i class="fas fa-ghost fa-3x"></i>
+            <i class="fas fa-dice-five fa-3x"></i>
+            <i class="fab fa-unity fa-3x"></i>
+            <hr />
+            <h2>
+                El desarrollo independiente de videojuegos o desarrollo indie development, es el proceso de 
+                de crear videojuegos independientes; estos son videojuegos, comúnmente creados por equipos de video individuales o pequeños
+                desarrolladores de juegos y generalmente sin el apoyo financiero significativo de un editor de videojuegos u otra
+                fuente externa.
+            </h2>
+            <br />
+            <h2>
+                Como puedes ver arriba, soy un desarrollador de videojuegos independiente, lo que significa que puedo diseñar, crear y desarrollar videojuegos
+                con el motor del juego Unity. He estado en algunos proyectos, pero estoy dispuesto a cualquier proyecto que usted tenga en mente.
+            </h2>
+          </div>
+          <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
+            <i class="fas fa-mobile-alt fa-3x"></i>
+            <i class="fab fa-android fa-3x"></i>
+            <i class="fab fa-swift fa-3x"></i>
+            <i class="fas fa-rocket fa-3x"></i>
+            <hr />
+            <h2>
+                Como otros servicios te puedo ofrecer asesoria en ideas creativas y proyectos sobre web, audio, video, videojuegos
+                y más aspectos que tengan relacion con el desarrollo tecnologico.
+                Además, si quieres un curso completo o un tutorial sobre temas específicos, puedo hacer videos o 
+                ejemplos practicos para ti. Mis campos son extensos, así que estoy dispuesto a aprender y aplicar mis conocimientos
+                para tus necesidades.
+            </h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End Services Content -->
+
+
+
+  <!-- Begin Skills Content -->
+  <div class="section-light skills" id="skills">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">Skills</h1>
+        </div>
+        <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
+         
+          <h1>Xcode / Swift / iOS Development</h1>
+          <progress class="progress" value="95" max="100">60%</progress>
+          <h1>Wordpress and Ecommerce</h1>
+          <progress class="progress" value="90" max="100">60%</progress>
+          <h1>Unity Engine</h1>
+          <progress class="progress" value="90" max="100">60%</progress>
+          <h1>Adobe Illustrator</h1>
+          <progress class="progress" value="83" max="100"></progress>
+          <h1>3D Max / Blender</h1>
+          <progress class="progress" value="80" max="100">60%</progress>
+          <h1>Adobe Photoshop</h1>
+          <progress class="progress" value="80" max="100">45%</progress>
+          <h1>Adobe After Effects</h1>
+          <progress class="progress" value="75" max="100">30%</progress>
+        </div>
+        <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
+          <h1>HTML</h1>
+          <progress class="progress" value="98" max="100">30%</progress>
+          <h1>CSS/SCSS</h1>
+          <progress class="progress" value="98" max="100">30%</progress>
+          <h1>Back-End Javascript / Typescript / PHP </h1>
+          <progress class="progress" value="98" max="100">45%</progress>
+          <h1>SQL - DBMS</h1>
+          <progress class="progress" value="98" max="100">60%</progress>
+          <h1>Front-End Angular / Bootstrap / Bulma / Ionic</h1>
+          <progress class="progress" value="98" max="100">60%</progress>
+          <h1>UI / UX </h1>
+          <progress class="progress" value="90" max="100">60%</progress>
+          <h1>Standalone Java / Python</h1>
+          <progress class="progress" value="88" max="100">60%</progress>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Skills Content -->
+
+  <!-- Begin Work Content -->
+  <div class="section-dark my-work" id="my-work">
+    <div class="container">
+      <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
+
+        <div class="column is-12">
+          <h1 class="title has-text-centered section-title">My Work</h1>
+        </div>
+
+        <div class="column is-3">
+          <a href="https://www.youtube.com/playlist?list=PLidukPqHzIMBVDiofRHHLUQZJsAhIwXez">
+            <figure class="image is-2by1 work-item"
+              style="background-image: url('https://i.udemycdn.com/course/750x422/2632258_0546.jpg');">
+            </figure>
+          </a>
+        </div>
+
+        <div class="column is-3">
+          <a href="https://www.youtube.com/playlist?list=PLidukPqHzIMBqg8f9RsFjxfgZ6ZYGqv-A">
+            <figure class="image is-2by1 work-item"
+              style="background-image: url('https://embedwistia-a.akamaihd.net/deliveries/fee5063331832c55fcb54729b9e65ebc9f9ed4c1.webp?image_crop_resized=1280x720');"></figure>
+          </a>
+        </div>
+
+        <div class="column is-3">
+          <a href="https://github.com/sergiman94?tab=repositories">
+            <figure class="image is-2by1 work-item"
+              style="background-image: url('https://s3.amazonaws.com/cdn.wp.m4ecnet/wp-content/uploads/2018/06/05041237/GitHub-logo-2-imagen.jpg');">
+            </figure>
+          </a>
+        </div>
+
+        <div class="column is-3">
+          <a href="#">
+            <figure class="image is-2by1 work-item"
+              style="background-image: url('https://about.twitter.com/content/dam/about-twitter/og/aboutog.png');">
+            </figure>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- End Work Content -->
+
+  <!-- Begin Contact Content -->
+  <!-- <div class="section-light contact" id="contact">
+    <div class="container">
+      <div class="columns is-multiline" data-aos="fade-in-up" data-aos-easing="linear">
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">
+            Get in touch
+          </h1>
+        </div>
+        <div class="column is-8 is-offset-2">
+
+          <form action="https://formspree.io/email@example.com" method="POST">
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control has-icons-left">
+                <input class="input" type="text" placeholder="Ex. Jane Smith" name="Name" [(ngModel)]="dName" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left">
+                <input class="input" type="email" placeholder="Ex. hello@arctheme.com" name="Email"
+                  [(ngModel)]="dEmail" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea" name="Message" [(ngModel)]="dBody"></textarea>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control ">
+                <button class="button submit-button" (click)="submit()">
+                  Submit&nbsp;&nbsp;
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End Contact Content -->
+
+</div>
+
+<!-- End Main Content -->
+
+
+
+
+<!---------------------------------------------------------------------------------------->
